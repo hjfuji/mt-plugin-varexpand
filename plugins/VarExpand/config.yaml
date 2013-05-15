@@ -1,0 +1,21 @@
+#
+# VarExpand
+# 2008/04/22 1.00 First release
+# 2008/12/16 1.01 Add some function
+# 2013/05/15 1.02 For Movable Type 5
+# Copyright(c) by H.Fujimoto
+#
+name: VarExpand
+id: set_var_formula
+author_name: <__trans phrase="Hajime Fujimoto">
+author_link: http://www.h-fj.com/blog/
+description: <__trans phrase="This plugin extends variable function.">
+plugin_link: http://www.h-fj.com/blog/mt5plgdoc/varexpand.php
+doc_link: http://www.h-fj.com/blog/mt5plgdoc/varexpand.php
+l10n_class: VarExpand::L10N
+version: 1.02
+tags:
+  function:
+    SetVarFormula: $VarExpand::VarExpand::Plugin::setvar_formula
+    GetVarFormula: $VarExpand::VarExpand::Plugin::setvar_formula
+    GetVarFunction: $VarExpand::VarExpand::Plugin::getvar_function
